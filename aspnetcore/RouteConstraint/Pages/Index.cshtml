@@ -1,0 +1,9 @@
+﻿@page
+
+@{
+	ViewData["Title"] = "Index";
+}
+<p>Last segment should be the same for both route</p>
+<p><code>@Url.Page("Route", new { id = 10 })</code></p>
+<p><code>@Url.Page("RouteWithOptionalSegment", new { id = 10 })</code></p>
+
